@@ -1,7 +1,7 @@
 @media(max-width: 800px){
     .main .section{
         flex-direction: column;
-        height: 130vh;
+        height: 150vh;
         padding-right: 20px;
         padding-left: 20px;
     }
