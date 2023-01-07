@@ -1,7 +1,7 @@
 @media(max-width: 820px){
     .main .section{
         flex-direction: column;
-        height: 150vh;
+        height: 130vh;
         padding-right: 20px;
         padding-left: 20px;
     }
@@ -32,6 +32,10 @@
 }
 
 @media(max-width:455px){
+    .main .section{
+        height: 115vh;
+    }
+
     .main .section .perfume-image .perfume-image-mobile{
         width: 300px;
         height: 250px;
