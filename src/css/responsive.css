@@ -30,3 +30,30 @@
         font-size: 18px;
     }
 }
+
+@media(max-width:455px){
+    .main .section .perfume-image .perfume-image-mobile{
+        width: 300px;
+        height: 250px;
+    }
+
+    .main .section .info{
+        width: 300px;
+    }
+
+    .main .section .info .perfume-name{
+        font-size: 32px;
+    }
+
+    .main .section .info .text{
+        font-size: 14px;
+    }
+
+    .main .section .info .rebate{
+        font-size: 30px;
+    }
+
+    .main .section .info .old-price{
+        font-size: 14px;
+    }
+}
