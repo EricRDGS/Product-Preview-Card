@@ -1,0 +1,110 @@
+body{
+    font-size: 14px;
+}
+
+.main{
+    background-color: var(--primary-cream);
+}
+
+.main .section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.main .section .perfume-image .perfume-image-desktop{
+    height: 600px;
+    border-radius: 12px 0 0 12px;
+}
+
+.main .section .perfume-image .perfume-image-mobile{
+    display: none;
+}
+
+.main .section .info{
+    display: flex;
+    flex-direction: column;
+    padding: 42px;
+    width: 400px;
+    height: 600px;
+    border-radius: 0 12px 12px 0;
+    background-color: #ffffff;
+}
+
+.main .section .info .perfume{
+    font-family: 'Montserrat', serif;
+    font-weight: 500;
+    letter-spacing: 6px;
+    color: var(--neutral-dark);
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.main .section .info .perfume-name{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 42px;
+    margin-bottom: 30px;
+    color: var(--neutral-very-dark);
+}
+
+.main .section .info .text{
+    font-family: 'Montserrat', serif;
+    font-size: 18px;
+    line-height: 30px;
+    color:  var(--neutral-dark);
+    margin-bottom: 40px;
+}
+
+.main .section .info .price{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.main .section .info .old-price{
+    font-family: 'Montserrat', serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--neutral-dark);
+}
+
+.main .section .info .rebate{
+    font-family: 'Fraunces', serif;
+    font-size: 44px;
+    font-weight: 700;
+    margin-right: 20px;
+    color: var(--primary-dark);
+}
+
+.main .section .info .btn{
+    font-family: 'Montserrat', serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--primary-dark);
+    border-radius: 10px;
+}
+
+.main .section .info .btn:hover{
+    background-color: var(--neutral-very-dark);
+    transition: 0.8s ease-in-out;
+    cursor: pointer;
+}
+
+.main .section .info .btn::before{
+    content: '';
+    background: url(../images/icon-cart.svg) no-repeat center;
+    height: 16px;
+    width: 38px;
+    display: inline-block;
+}
+
+.footer{
+    display: none;
+}

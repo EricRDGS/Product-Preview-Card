@@ -1,0 +1,32 @@
+@media(max-width: 375px){
+    .main .section{
+        flex-direction: column;
+        height: 110vh;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .main .section .perfume-image .perfume-image-mobile{
+        display: inline-block;
+        width: 350px;
+        height: 250px;
+        border-radius: 12px 12px 0 0;
+    }
+
+    .main .section .perfume-image .perfume-image-desktop{
+        display: none;
+    }
+
+    .main .section .info{
+        width: 350px;
+        border-radius: 0 0 12px 12px;
+    }
+
+    .main .section .info .perfume-name{
+        font-size: 30px;
+    }
+
+    .main .section .info .text{
+        font-size: 16px;
+    }
+}
