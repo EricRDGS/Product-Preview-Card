@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://ericrdgs.github.io/Product-Preview-Card/)
+- Live Site URL: [Meu github](https://ericrdgs.github.io/Product-Preview-Card/)
 
 ### Built with
 
