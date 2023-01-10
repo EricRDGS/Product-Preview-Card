@@ -26,12 +26,17 @@ Users should be able to:
 
 ### Screenshot
 
-<a href="src/images/Screenshot-desktop.jpg">
-<a href="src/images/Screenshot-mobile.jpg">
+#### Desktop
+
+<img src="src/images/Screenshot-desktop.png" alt="desktop">
+
+#### Mobile
+
+<img src="src/images/Screenshot-mobile.png" alt="mobile">
 
 ### Links
 
-- Live Site URL: [Meu github](https://ericrdgs.github.io/Product-Preview-Card/)
+- Live Site URL: [ Access Website ](https://ericrdgs.github.io/Product-Preview-Card/)
 
 ### Built with
 
